@@ -7,7 +7,7 @@ SnarkBot is an AI-powered chatbot designed with a sharp wit and a penchant for s
 
 ## Screenshots
 
-![ss0](cypherAI-main\Screenshots\chat.png)
+![ss0](Screenshots/chat.png)
 ![ss1](cypherAI-main\Screenshots\chat2.png)
 ![ss2](cypherAI-main\Screenshots\home.png)
 
