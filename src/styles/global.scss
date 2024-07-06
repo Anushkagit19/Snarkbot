@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+#root {
+  min-height: 100vh;
+  animation: fadeIn 1.5s;
+  background-color: #0f1c2e;
+}
+
+body {
+  background-color: #0f1c2e;
+}
+
+.sidebar {
+  animation: fadeIn 1.5s;
+}
+
+.sidebar img {
+  width: 20px;
+}
+
+.chat-container .greet span {
+  background-image: linear-gradient(
+    #439ddf 0%,
+    #9476c5 78%,
+    #bc688e 89%,
+    #d6645d 100%,
+    #4587ed 52%
+  );
+  // background: --webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.result::-webkit-scrollbar,
+.recent-chat-items::-webkit-scrollbar {
+  display: none;
+}
+
+.loader hr {
+  border-radius: 4px;
+  border: none;
+  background-color: #f6f7f8;
+  background-image: linear-gradient(to right, #9ed7ff, #ffffff, #9ed7ff);
+  background-size: 800px 50px;
+  height: 20px;
+  animation: loader 3s infinite linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loader {
+  0% {
+    background-position: -800px 0px;
+  }
+  100% {
+    background-position: 800px 0px;
+  }
+}
